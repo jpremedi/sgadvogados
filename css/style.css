@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+}
+
+/* @media screen and (min-width: 700px){ */
+
+body {
+    /* background: linear-gradient(#565656, #bebebe); */
+    background-color: black !important;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    content: center;
+    align-items: center;
+    width: 1200px;
+    height: 115vh !important;
+}
+
+.cabecalho {
+    background: url(../images/fundo1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(65px);
+    list-style: none;
+    margin-right: 40px;
+}
+
+.menu-navegacao a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.menu-navegacao a:hover {
+    color: white;
+    background-color: #363636;
+    border: 1px solid #363636;
+    padding: 1px 2px;
+}
+
+.linkLogo a:hover {
+    background-color: transparent;
+    border: 0;
+    padding: 0px 0px;
+}
+
+.logo {
+    transform: translateY(10px);
+    width: 230px;
+}
+
+.conteudo {
+    /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(../images/fundo3.jpg); */
+    background: linear-gradient(#565656, #bebebe);
+    width: 1200px;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    height: 130vh !important;
+}
+
+#slider {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.lista-imagens {
+    margin-top: 100px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.causas {
+    margin-top: 110px !important;
+    text-align: center !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    color: white !important;
+    font-size: 50px !important;
+    font-weight: bolder !important;
+    /* text-shadow: 1px 0px 0px black, -1px 0px 0px black, 0px 1px 0px black, 0px -1px 0px black; */
+}
+
+/* Página "área de atuação" */
+
+.conteudo-atuacao {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/fundo5.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 1200px !important;
+    height: 125vh !important;
+    margin: auto auto;
+}
+
+h1 {
+    margin-top: 85px !important;
+    text-align: center !important;
+    font-size: 60px !important;
+    font-weight: bolder !important;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    /* text-shadow: 1px 0px 0px black, -1px 0px 0px black, 0px 1px 0px black, 0px -1px 0px black; */
+}
+
+p {
+    text-indent: 2.5em;
+}
+
+.descricao li {
+    text-align: left;
+    text-align: justify;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+    /* text-shadow: 1px 0px 0px black, -1px 0px 0px black, 0px 1px 0px black, 0px -1px 0px black; */
+}
+
+#escritorio {
+    margin-top: 50px;
+    line-height: 1.5;
+}
+
+/* Página "quem somos */
+
+.conteudo-quem-somos {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/fundo4.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 1200px !important;
+    height: 143vh !important;
+}
+
+.sobre-escritorio {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    text-align: justify;
+    padding: 25px;
+    /* text-shadow: 2px 0px 0px black, -1px 0px 0px black, 0px 2px 0px black, 0px -1px 0px black; */
+    margin-top: 40px;
+    margin: center center;
+}
+
+/* Página Contato*/
+
+.conteudo-contato {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/fundo2.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 1200px !important;
+    height: 190vh !important;
+}
+
+.contato {
+    text-align: center !important;
+    text-align: justify;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px !important;
+    margin-top: 50px;
+}
+
+#mapa {
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 43px;
+    text-align: center;
+    list-style: none;
+}
+
+form {
+    
+    font-size: 16px;
+    background: #ccc;
+    max-width: 500px;
+    margin-top: 250px;
+    margin: 0 auto;
+    padding: 0px 10px 10px 10px;
+}
+
+.formulario {
+    margin-top: 80px;
+}
+
+.form {
+    color: #1C1C1C;
+}
+
+input {
+    width: 420px;
+    padding: 10px;
+}
+
+.enviar input {
+    background-color: DeepSkyBlue;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    background: LightSkyBlue;
+}
+
+textarea {
+    line-height: 20px;
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+    font-size: 19px;
+    font-weight: bolder;
+    border: 1px;
+    background-color: grey;
+}
+
+/* } */
